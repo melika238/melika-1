@@ -5,35 +5,19 @@ const pets = [
 ];
 
 const getAge =(pet)=> new Date().getFullYear()-pet.bornOn;
-console.log(getAge);
+console.log(getAge); // houni function so console.log mandhch valeur ajoutée
 
 
-
-let petsWithAge = [];
-function   ( ){
-   pet.forEach(pet.age =>{
-  pet.age = getAge(pet);});
-}
-console.log(petsWithAge);
+pet.forEach(pet.age =>pet.age = getAge(pet));
 
 
-
-
-
-let dogs = [];
-function filterdogs (){
-    return pet.filter((pet)=>{
-        return pets.type==="dog" ;
+let dogs =pet.filter((pet)=>{
+        return pets.type ==="dog" ;
     })
-  }
-    console.log(dogs);
-
-
-
+console.log(dogs);
 
 
 const jasper;
-function findjasper(name) {
-    return pet.find(pet =>{return pet.name == jasper})
+jasper =  pet.find(pet =>{return pet.name == jasper})
 }
 console.log(`Jasper is  ${ jasper.age} , years old `);
